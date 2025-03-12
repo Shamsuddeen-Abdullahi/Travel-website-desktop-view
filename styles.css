@@ -90,13 +90,13 @@
   }
 
   .intro{
-    margin-left: 300px;
+    margin-left: 50px;
   }
 
-  .intro-text{
-    margin-left: 300px;
+  .intro-text1{
+    margin-left: 30px;
   }
-  
+
   /* =====================================================
      Header / Promo Section
   ===================================================== */
@@ -406,7 +406,10 @@
   @media screen and (min-width: 1024px) {
     /* Increase typography sizes */
     h1 {
-      font-size: 3.5em;
+      font-size: 185px;
+    }
+    .highlighted-texts1{
+      font-size: 140px;
     }
     h2 {
       font-size: 2em;
@@ -428,14 +431,14 @@
 
     .highlighted-text{
       margin-left: 290px;
+      
     }
   
     /* Promo Section */
     .promo-image-box img {
-      width: 100%;
+      width: 500px;
       height: auto;
-      object-fit: cover;
-      margin-left: 150px;
+      margin-left: 0px;
   }
 
     .ellipse{
@@ -452,6 +455,10 @@
     .blur-background{
       margin-top: 16px;
       height: 100px;
+    }
+
+    .intro{
+      margin-right: 50px;
     }
 
     .your-chooci{
@@ -508,17 +515,41 @@
       gap: 5px;
     }
 
-    .intro-texts{
-      font-size: 1.5em;
+    #whychoose {
+      margin-left: 50px;
+    }
+    .intro-textsone{
       text-align: center;
-      justify-content: center;
-      margin-left: 200px;
+      padding-left: 0px;
+    }
+    #memorabletrip {
+      font-size: 50px;
+      margin-left: 50px;
+    }
+    .highlighted-text {
+      margin-left: -10px;
+    
+    }
+    .intro-texts1{
+      font-size: 2000px
+      margin-right: 100px;
+      text-align: center;
+    
+    }
+    .adventuring-couple {
+      margin-left: -450px;
+      margin-top: -30px;
+    }
+
+    .docs-heading{
+    margin-right: 320px;
     }
 
   
     /* Documentation Section */
     .docs-video12 {
       max-width: 1350px;
+      margin-left: -17px;
     }
 
     .documentation-section{
@@ -534,7 +565,7 @@
     }
 
     .need{
-      margin-left: 150px;
+      margin-left: 120px;
     }
     
     /* Footer Layout */
@@ -547,13 +578,17 @@
     .footer-info{
       display: flex;
       flex-direction: column;
+      display: row;
       
     }
 
     .shams {
-      display: row;
-      display: column;
       display: flex;
+      flex-direction: column;
+    }
+
+    .intro-text11{
+      margin-bottom: 90px;
     }
     
     .footer-links{
@@ -562,7 +597,7 @@
     }
 
     .social-icons{
-      margin-right: 600px;
+      margin-right: 1150px;
     }
   }
   
